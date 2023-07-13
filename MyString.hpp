@@ -7,7 +7,7 @@ private:
     char *str = nullptr;
 
 public:
-    MyString();                            // deafault constructor
+    MyString();                            // constructor without args
     ~MyString();                           // destructor
     MyString(const char *);                // parameterized constructor
     MyString(char *);                      // parameterixed constructor
